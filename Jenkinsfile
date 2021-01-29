@@ -13,17 +13,17 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'mvn clean compile'
+                sh './mvnw clean compile'
             }
         }
         stage('Testing') {
             steps {
-                sh 'mvn test'
+                sh './mvnw test'
             }
         }
         stage('Deploy') {
             steps {
-                sh 'mvn deploy'
+                sh './mvnw deploy'
             }
         }
     }
