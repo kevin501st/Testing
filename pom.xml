@@ -61,13 +61,8 @@
     		<repository>
      			<id>nexus</id>
       			<name>Releases</name>
-      			<url>http://3.131.95.69:8081/repository/Test</url>
+      			<url>http://3.131.95.69:8081/demo/data</url>
     		</repository>
-		<snapshotRepository>
-      		<id>nexus</id>
-      		<name>Snapshot</name>
-      		<url>http://3.131.95.69:8081/repository/Test/com/example/demo/0.0.1-SNAPSHOT/maven-metadata.xml</url>
-    	</snapshotRepository>
 	</distributionManagement>
 
 </project>
