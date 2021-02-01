@@ -36,16 +36,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 			<exclusions>
-				<exclusion>
-					<groupId>junit</groupId>
-					<artifactId>junit</artifactId>
-				</exclusion>
+                		<exclusion>
+                    			<groupId>junit</groupId>
+                    			<artifactId>junit</artifactId>
+                		</exclusion>
 			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-engine</artifactId>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
@@ -57,5 +52,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+    		<repository>
+     			<id>nexus</id>
+      			<name>Releases</name>
+      			<url>http://3.131.95.69:8081/demo/data</url>
+    		</repository>
+	</distributionManagement>
 
 </project>
