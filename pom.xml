@@ -56,7 +56,7 @@
     		<repository>
      			<id>nexus</id>
       			<name>Releases</name>
-      			<url>http://3.131.95.69:8081</url>
+      			<url>http://3.131.95.69:80</url>
     		</repository>
 	</distributionManagement>
 
