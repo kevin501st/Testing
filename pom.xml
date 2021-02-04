@@ -58,6 +58,11 @@
       			<name>Releases</name>
       			<url>http://3.131.95.69:8081</url>
     		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Snapshots</name>
+			<url>http://3.131.95.69:8081</url>
+    		</snapshotRepository>
 	</distributionManagement>
 
 </project>
