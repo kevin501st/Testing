@@ -56,7 +56,7 @@
     		<repository>
      			<id>nexus</id>
       			<name>Releases</name>
-      			<url>3.131.95.69/Backend</url>
+      			<url>3.131.95.69/home/ec2-user/Backend</url>
     		</repository>
 	</distributionManagement>
 
