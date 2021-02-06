@@ -56,7 +56,7 @@
     		<repository>
      			<id>nexus</id>
       			<name>Releases</name>
-      			<url>3.131.95.69/home/ec2-user/Backend</url>
+      			<url>scpexe://3.131.95.69.compute-1.amazonaws.com</url>
     		</repository>
 	</distributionManagement>
 
