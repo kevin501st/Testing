@@ -24,7 +24,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'mvn install'
-                sh'ls'
+                sh'ls target'
             }
         }
     }
