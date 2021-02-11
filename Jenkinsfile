@@ -24,6 +24,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'mvn install'
+                sh 'start java -jar ./target/main_api-0.0.1-SNAPSHOT.jar'
             }
         }
     }
