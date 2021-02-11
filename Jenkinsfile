@@ -24,7 +24,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'mvn install'
-                sh 'java -jar ./target/testing-0.0.1-SNAPSHOT.jar'
+                sh'ls'
             }
         }
     }
