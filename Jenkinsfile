@@ -25,7 +25,6 @@ pipeline {
             steps {
                 sh 'mvn install'
                 sh'ls target'
-                sh'java -jar ./target/demo-0.0.1-SNAPSHOT.jar
             }
         }
     }
